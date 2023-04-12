@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #525252;
+    color: #000;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+}
+
+.menu{
+    display: flex;
+    inset: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    font-size: clamp(0.3rem, 0.71353rem + 1.6368vw, 2rem);
+    margin-left: clamp(10px, 0.71353rem + 1.6368vw, 50px);
+    font-family: 'Delicious Handrawn', cursive;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #16d6fa;
+    transition: 0.75s;
+}
+
+.logo:hover{
+    transition: 0.5s;
+    text-shadow: 0 0 20px #16d6fa,
+                 0 0 40px #16d6fa,
+                 0 0 60px #16d6fa;
+}
+
+.menu-item{
+    justify-content: space-between;
+    font-size: clamp(0.3rem, 0.71353rem + 1.6368vw, 2rem);
+    margin-right: clamp(10px, 1.6368vw, 20px);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #16d6fa;
+    transition: 0.75s;
+}
+
+.menu-item:hover{
+    transition: 0.5s;
+    text-shadow: 0 0 20px #16d6fa,
+                 0 0 40px #16d6fa,
+                 0 0 60px #16d6fa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*not 404*/
+.not_404_not{
+background: #fff;
+width: 100%;
+
+}
+
+.not_found{
+    display: flex;
+    width: clamp(100px, 75%, 1000px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+  /*menu home*/
+.vozrat_to-home{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: black;
+    transition: 0.5s;
+}
+
+.vozrat_to-home:hover{
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+
+
