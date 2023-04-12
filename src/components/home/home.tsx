@@ -5,7 +5,6 @@ import Header from './componens_for-react/header'
 export default function Home() {
     return (
         <div>
-        hello
        <Header/>
         </div>
     )
